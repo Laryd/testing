@@ -1,4 +1,5 @@
 // Testing using cypress.
+
 // Install and setup cypress according to the official docs from the cypress website
 //Use testing playground extention (install it in chrome) to make it easier to select different elements
 //use data- assigning for elements that can't be selected easily.
@@ -7,6 +8,8 @@ End-to-end testing is a software testing technique that verifies the functionali
 and performance of an entire software application from start to finish by simulating
  real-world user scenarios and replicating live data.
 */
+
+//eg in integration/payment_spec.js file, the following will run a test on the payment system
 
 const { v4: uuidv4 } = require("uuid");
 
